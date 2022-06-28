@@ -40,7 +40,7 @@ To monitor via camera:
 * Step 2: Press the **Play** button (right panel)
 
 ## Train on a new dataset
-### Step 1: Train model to detect the outer bounding box of the component box (Box)
+### Train model to detect the outer bounding box of the component box (<font color='blue'>Box</font>)
 * use Yolov5
 
-### Step 2: Train four CNN models to classify four **Cells** inside each bounding box
+### Train four CNN models to classify four **Cells** inside each bounding box
