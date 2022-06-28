@@ -15,7 +15,10 @@ The key modules of the project is organize as:
 * **Controllers**: contain the logics of the program
 * **Models**: define data types and interact with data
 * **Views**: define the Graphical User Interface (GUI)
+* 
 Scripts are all saved in the main modules, with descriptions below:
 * **controllerMain**: contain the main logics of the program
+* **viewMain**: define the structure of the GUI
+* **modelMain**: load the Torch model 
 
 ![alt text](https://github.com/PHM1605/MVIS/blob/main/images/app.png)
