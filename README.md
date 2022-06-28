@@ -47,9 +47,14 @@ The algorithm executes in two steps:
 The instant result is in the **Issue list** section; saved in the **Data/log.txt** file and sent via RS232. It shows the time of the analysis and the status of the box at that time. Summary report is on the **Stats** section (lower right) and saved in the **Data/daily_log.txt**. The following information is in the summary box: pass rate, fail rate, yield rate and the most 3 common types of error.
 
 ## Train on a new dataset
-### Train model to detect the outer bounding box of the component box (blue box in image)
+### Train model to detect the outer bounding box
 * use Yolov5
 
-### Train four CNN models to classify four cells (green/ red circles in image) inside each bounding box. 
-Green indicates OK cells, which means there is a correct component in that cell. Red indicates Not OK cell(s), which means the component in that cell is missing. In the image, the power cord is missing, therefore the color of the power cord cell is red.
+### Train four CNN models to classify four cells inside each bounding box
+* collect video from the production line.
+* fix the path inside **models/modelPath** to the path of the video which we have just collected.
+* create for folders inside **Data**: **Folder1**, **Folder2**, **Folder3**, **Folder4**. These are to store the cropped images from the cells, at four locations, within the bounding boxes. 
+* run the script **crop_images_to_train_dataset.py**. 
+* arrange the images in the four folders into **0** and **1** groups (by creating two **0** and **1** folders inside each **Folder#** folder). **0** contains cell with missing component. **1** contains cell with component existing. 
+* run the script **train_sub_models.py**. 
 
