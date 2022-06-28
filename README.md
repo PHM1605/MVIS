@@ -15,6 +15,7 @@ The key modules of the project is organize as:
 * **Controllers**: contain the logics of the program
 * **Models**: define data types and interact with data
 * **Views**: define the Graphical User Interface (GUI)
+* **Data**: store necessary data for the program and the resulting data
 
 Scripts are all saved in the main modules, with descriptions below:
 * **controllerMain**: contain the main logics of the program
@@ -29,6 +30,7 @@ The GUI of the program is shown as below:
 ![alt text](https://github.com/PHM1605/MVIS/blob/main/images/app.png)
 
 To open existing video from local computer:
-* Step 1: Open the **File** menu (top left corner)
-* Step 2: Press **Open**. Choose a video from the local computer. For instance, choose **Data/270522_UDMP00SD.avi**
-* Step 3: Press the **Play** button (right panel). Video is running and results are viewable on the screen
+* Step 1: Choose the model from the **Model** section (top right)
+* Step 2: Open the **File** menu (top left corner)
+* Step 3: Press **Open**. Choose a video from the local computer. For instance, choose **Data/270522_UDMP00SD.avi**
+* Step 4: Press the **Play** button (right panel). Video is running and results are viewable on the screen. Instant result is in the **Issue list** section; saved in the **Data/log.txt** file and sent via RS232. Summary report is on the **Stats** section (lower right) and saved in the **Data/daily_log.txt**
