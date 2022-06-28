@@ -15,13 +15,13 @@ The key modules of the project is organize as:
 * **Controllers**: contain the logics of the program
 * **Models**: define data types and interact with data
 * **Views**: define the Graphical User Interface (GUI)
-* 
+
 Scripts are all saved in the main modules, with descriptions below:
 * **controllerMain**: contain the main logics of the program
 * **viewMain**: define the structure of the GUI
 * **modelMain.py**: load the pretrained Torch model saved in Data folder (**best.pt**) to detect the bounding box; define the camera; define the CNN to classify (four) cells in a detected bounding box
 * **modelPath.py**: define the location of the files in the program
-* **modelRS232.py**: define RS232 port model to open, send data and close port. The port number is defined in file Data/config.txt
+* **modelRS232.py**: define RS232 port model to open, send data and close port. The port number is defined in file **Data/config.txt**
 * **modelStatus.py**: define dictionary to convert four-digit box status (e.g. 0001) to meaningful sentences, to be display on screen; define a box of statistics to calculate the stats box on the lower right corner, with pass rate, fail rate, yield rate and the most 3 common types of error
 
 ![alt text](https://github.com/PHM1605/MVIS/blob/main/images/app.png)
