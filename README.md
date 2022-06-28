@@ -7,7 +7,11 @@ The Moving Visual Inspection System (MVIS) project is a part of Intelligent Visu
 * Only detect missing or not. Do not include wrong or reverse component placement
 * Include 2 models: UDMP00SD and USWP24SD
 * Can run in 2 ways: choose video and run or run camera directly
-* 
+
 Notice: the box needs to be put pretty straight (incline angle no greater than 45 degrees) to have accurate predictions.
+
+## Code organization
+The key modules of the project is organize as:
+
 
 ![alt text](https://github.com/PHM1605/MVIS/blob/main/images/app.png)
