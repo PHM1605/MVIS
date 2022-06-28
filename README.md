@@ -43,5 +43,6 @@ To monitor via camera:
 ### Train model to detect the outer bounding box of the component box (blue box in image)
 * use Yolov5
 
-### Train four CNN models to classify four cells (green/ red circles in image) inside each bounding box. Green indicates OK cells, which means there is a correct component in that cell. Red indicates Not OK cell(s), which means the component in that cell is missing. In the image, the power cord is missing, therefore the color of the power cord cell is red.
+### Train four CNN models to classify four cells (green/ red circles in image) inside each bounding box. 
+Green indicates OK cells, which means there is a correct component in that cell. Red indicates Not OK cell(s), which means the component in that cell is missing. In the image, the power cord is missing, therefore the color of the power cord cell is red.
 
