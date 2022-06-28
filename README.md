@@ -39,3 +39,5 @@ To monitor via camera:
 * Step 1: Choose the model from the **Model** section (top right)
 * Step 2: Press the **Play** button (right panel)
 
+## Train on a new dataset
+To train 
