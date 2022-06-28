@@ -49,6 +49,7 @@ The instant result is in the **Issue list** section; saved in the **Data/log.txt
 ## Train on a new dataset
 ### Train model to detect the outer bounding box
 * use Yolov5
+* copy the **best.pt** Torch model into **Data/**
 
 ### Train four CNN models to classify four cells inside each bounding box
 * collect video from the production line.
@@ -56,5 +57,5 @@ The instant result is in the **Issue list** section; saved in the **Data/log.txt
 * create for folders inside **Data**: **Folder1**, **Folder2**, **Folder3**, **Folder4**. These are to store the cropped images from the cells, at four locations, within the bounding boxes. 
 * run the script **crop_images_to_train_dataset.py**. 
 * arrange the images in the four folders into **0** and **1** groups (by creating two **0** and **1** folders inside each **Folder#** folder). **0** contains cell with missing component. **1** contains cell with component existing. 
-* run the script **train_sub_models.py**. 
-
+* run the script **train_sub_models.py**. We created four CNN models inside **Data/**: **submodel_1.h5**, **submodel_2.h5**, **submodel_3.h5**, **submodel_4.h5**
+* create a folder inside **Data/** with the name of the box model (e.g. **UDMP00SD**). Move the four submodels into that.
