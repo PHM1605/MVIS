@@ -34,3 +34,8 @@ To open existing video from local computer:
 * Step 2: Open the **File** menu (top left corner)
 * Step 3: Press **Open**. Choose a video from the local computer. For instance, choose **Data/270522_UDMP00SD.avi**
 * Step 4: Press the **Play** button (right panel). Video is running and results are viewable on the screen. Instant result is in the **Issue list** section; saved in the **Data/log.txt** file and sent via RS232. Summary report is on the **Stats** section (lower right) and saved in the **Data/daily_log.txt**
+
+To monitor via camera:
+* Step 1: Choose the model from the **Model** section (top right)
+* Step 2: Press the **Play** button (right panel)
+
