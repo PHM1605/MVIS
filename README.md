@@ -13,7 +13,6 @@ Notice: the box needs to be put pretty straight (incline angle no greater than 4
 ## Code organization
 The key modules of the project is organize as:
 * Controllers: contain the logics of the program
-* * controllerMain: main logics of the program
 * Models: define data types and interact with data
 * Views: define the Graphical User Interface (GUI)
 
