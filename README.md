@@ -27,7 +27,7 @@ Scripts are all saved in the main modules, with descriptions below:
 
 ## Run program
 The GUI of the program is shown as below:
-![alt text](https://github.com/PHM1605/LCM/blob/main/images/LCM.png)
+![alt text](https://github.com/PHM1605/MVIS/blob/main/images/app.png)
 
 To open existing video from local computer:
 * Step 1: Choose the model from the **Model** section (top right)
